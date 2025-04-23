@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="Contacts.css">
+  <script src="script.js"></script>
+  <link rel="icon" type="image/png" href="logo-icon.jpg">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Menupage.html">Menu</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="/contact-Us.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Contact</h1>
+  <div>
+    <h2>Feedback</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Full Name" onchange="setName()" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Email Address" onchange="setEmail()" onblur="validateEmail()" onkeyup="validateEmail()" onchange="validateEmail() " name="email" required><br><br>
+      <label for="Phone">Phone:</label><br>
+      <input type="number" id="phone" placeholder="Phone Number" onchange="setPhone()" name="phone" required><br><br>
+      <label for="address">Address:</label><br>
+      <input type="text" id="address" placeholder="Address" onchange="setAddress()" name="address" required><br><br>
+      <label for="city">Location</label>:</label><br>
+      <input type="text" id="city" placeholder="City" onchange="setCity()" name="city" required><br><br>
+      <label for="Message">Tell us about your visit:</label><br>
+      <textarea id="message" placeholder="Message" onchange="setMessage()" name="message" required></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <div>
+    <h2>Contact on</h2>
+    <p>Phone: +254 712 345 678</p>
+    <p>Email: info@company.com</p>
+  </div>
+  <div>
+    <h2>Location</h2>
+    <p>Address: 123 Main St, Anytown, USA</p>
+    <p>Hours: Sun - Thu 6.30 AM to 11:00 PM
+      <br>Fri - Sat 6.30 AM to 12:00 AM
+    </p>
+    <p>Kilimani</p>
+    <p>Koinange Street</p>
+    <p>Village Market</p>
+    <p>The Waterfront Mall, Karen</p>
+    <p>The Imaara Mall</p>
+  </div>
+
+  <footer>
+    <div>
+      <h4>Join our email list</h4>
+      <label for="sub-email">Email:</label><br>
+      <input type="sub-email" id="sub-email" placeholder="Enter your email" onchange="setEmail()" name="sub-email" required><br><br>
+      <input type="submit" value="Subscribe">
+      <input type="submit" value="Unsubscribe">
+      <h4>By clicking "SUBSCRIBE" I agree to receive news, promotions, information, and offers from Gurume.</h4>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Menupage.html">Menu</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="/contact-Us.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <p>© 2025 Gurume. All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>

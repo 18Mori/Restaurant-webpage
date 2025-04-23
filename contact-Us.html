@@ -12,12 +12,15 @@
 
 <body>
   <header>
+    <a href="index.html">
+      <img src="gurume logo PNG.png" alt="">
+    </a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Menupage.html">Menu</a></li>
         <li><a href="About.html">About</a></li>
-        <li><a href="/contact-Us.html">Contacts</a></li>
+        <li><a href="#" aria-label="contact Page" class="active">Contacts</a></li>
       </ul>
     </nav>
   </header>
@@ -28,12 +31,12 @@
       <label for="name">Name:</label><br>
       <input type="text" id="name" placeholder="Full Name" onchange="setName()" name="name" required><br><br>
       <label for="email">Email:</label><br>
-      <input type="email" id="email" placeholder="Email Address" onchange="setEmail()" onblur="validateEmail()" onkeyup="validateEmail()" onchange="validateEmail() " name="email" required><br><br>
+      <input type="email" id="email" placeholder="Email Address" onchange="validateEmail()" onblur="validateEmail()" onkeyup="validateEmail()" name="email" required><br><br>
       <label for="Phone">Phone:</label><br>
       <input type="number" id="phone" placeholder="Phone Number" onchange="setPhone()" name="phone" required><br><br>
       <label for="address">Address:</label><br>
       <input type="text" id="address" placeholder="Address" onchange="setAddress()" name="address" required><br><br>
-      <label for="city">Location</label>:</label><br>
+      <label for="city">Location</label>:<br><br>
       <input type="text" id="city" placeholder="City" onchange="setCity()" name="city" required><br><br>
       <label for="Message">Tell us about your visit:</label><br>
       <textarea id="message" placeholder="Message" onchange="setMessage()" name="message" required></textarea><br><br>
@@ -62,17 +65,17 @@
     <div>
       <h4>Join our email list</h4>
       <label for="sub-email">Email:</label><br>
-      <input type="sub-email" id="sub-email" placeholder="Enter your email" onchange="setEmail()" name="sub-email" required><br><br>
+      <input type="email" id="sub-email" placeholder="Enter your email" onchange="setEmail()" name="sub-email" required><br><br>
       <input type="submit" value="Subscribe">
       <input type="submit" value="Unsubscribe">
       <h4>By clicking "SUBSCRIBE" I agree to receive news, promotions, information, and offers from Gurume.</h4>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" aria-label="Home Page">Home</a></li>
         <li><a href="Menupage.html">Menu</a></li>
         <li><a href="About.html">About</a></li>
-        <li><a href="/contact-Us.html">Contacts</a></li>
+        <li><a href="#" aria-label="contact Page">Contacts</a></li>
       </ul>
     </nav>
     <p>© 2025 Gurume. All Rights Reserved</p>

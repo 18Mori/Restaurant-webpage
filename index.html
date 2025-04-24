@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>
+  <header >
     <div class="home-content">
       <div class="logo-container">
         <a href="index.html">
@@ -25,35 +25,68 @@
             <li><a href="contact-Us.html"><img src="contact.png" alt=""><span>Contacts</span></a></li>
           </ul>
         </div>
+        <div class="order-button">
+          <a href="Menupage.html">
+            <button>
+              START ORDER
+            </button>
+          </a>
+        </div>
       </div>
-      <div class="order-button">
-        <a href="Menupage.html">
-          <button>
-            START ORDER
-          </button>
-        </a>
-      </div>
+      
     </div>
   </header>
-
+<section>
+  <div class="img-1">
+    <img width="400px" src="Red Velvet Strawberry Cheesecake.jpg" alt="">
+  </div>
+  <div class="img-2">
+    <img width="400px" src="The BEST Mongolian Beef Recipe - Coop Can Cook.jpg" alt="">
+  </div>
+  <!-- <div class="img-3">
+    <img width="400px" src="Chicken Chow Mein.jpg" alt="">
+  </div>
+  <div class="img-4">
+    <img width="400px" src="Easy Oreo Milkshake (Only 3 Ingredients!).jpg" alt="">
+  </div>
+  <div class="img-5">
+    <img width="400px" src="Matcha Bubble Tea with Brown Sugar _ How to Make Boba Tea.jpg" alt="">
+  </div> -->
+  </div>
+</section>
   <footer>
-    <div>
+    <div class="footer-content">
       <h4>Join our email list</h4>
-      <label for="sub-email">Email:</label><br>
-      <input type="email" id="sub-email" placeholder="Enter your email" onchange="setEmail()" name="sub-email"
-        required><br><br>
-      <input class="subscribe-button" type="submit" onclick="subscribe()" value="Subscribe">
-      <input class="unsubscribe-button" type="submit" onclick="unsubscribe()" value="Unsubscribe">
+      <div class="subscribe-form">
+        
+        <div class="subscribe-input"">
+          <label for="sub-email"></label><br>
+        <input type="email" id="sub-email" placeholder="Enter your email" onchange="setEmail()" name="sub-email"
+          required><br><br>
+        <input class="subscribe-button" type="submit" onclick="subscribe()" value="Subscribe">
+        <input class="unsubscribe-button" type="submit" onclick="unsubscribe()" value="Unsubscribe">
+        </div>
+      </div>
       <h4>By clicking "SUBSCRIBE" I agree to receive news, promotions, information, and offers from Gurume.</h4>
+      <div class="social-media">
+        <img width="125px" src="tripadvisor-logo.png" alt="">
+        <img width="125px" src="tripadvisor-2022.png" alt="">
+      </div>
+      <!-- <div class="social-media-icons">
+          <img width="48px" src="icons8-youtube-50.png" alt="">
+          <img src="instagram-48.png" alt="">
+      </div> -->
     </div>
-    <nav class="footer-navbar">
-      <ul>
-        <li><a href="#" aria-label="Home Page">Home</a></li>
-        <li><a href="Menupage.html">Menu</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="contact-Us.html">Contacts</a></li>
-      </ul>
-    </nav>
+    <div class="footer-content-bar">
+      <nav class="footer-navbar">
+        <ul>
+          <li><a href="#" aria-label="Home Page">Home</a></li>
+          <li><a href="Menupage.html">Menu</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact-Us.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
     <p>© 2025 Gurume. All Rights Reserved</p>
   </footer>
 </body>
